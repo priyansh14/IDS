@@ -18,12 +18,12 @@ while True:
         for (ex,ey,ew,eh) in eyes:
             cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),2)
     cv2.imshow("img",img)     
-    '''for i in range (0,10):
-        cv2.waitKey(1000)
-        x = str(i)
-        x=x+".jpg"
+    #for i in range (0,10):
+     #   cv2.waitKey(1000)
+      #  x = str(i)
+       # x=x+".jpg"
         #print(x)
-        cv2.imwrite(x,img)'''
+        #cv2.imwrite(x,img)'''
     if cv2.waitKey(3)==ord('q'):
         break;
 cam.release()
