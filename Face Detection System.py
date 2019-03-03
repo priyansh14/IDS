@@ -1,6 +1,9 @@
+
+
 import numpy as np
 import cv2
 cam=cv2.VideoCapture(0)
+#PLEASE CHANGE THE FILE LOCATION IN THE NEXT LINE TO THE FILE LOCATION ON YOUR SYSTEM
 face_cascade = cv2.CascadeClassifier(D:\\ANACONDA\\Lib\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml)
 eye_cascade = cv2.CascadeClassifier(D:\\ANACONDA\\Lib\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml)
 while True:
